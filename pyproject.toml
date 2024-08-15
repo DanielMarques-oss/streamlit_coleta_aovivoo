@@ -6,10 +6,10 @@ authors = ["Danie Marques de Almeida <danielmarques.enfermagem@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.12.3"
+python = "^3.10"
 streamlit = "^1.37.1"
-psycopg2-binary = "^2.9.9"
 sqlalchemy = "^2.0.32"
+psycopg2-binary = "^2.9.9"
 python-dotenv = "^1.0.1"
 
 
