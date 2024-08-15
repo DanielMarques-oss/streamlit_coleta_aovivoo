@@ -60,7 +60,7 @@ def salvar_dados_banco(session, dados):
             conforto_dados=dados["Conforto com Dados"],
             experiencia_python=dados["Experiência de Python"],
             experiencia_sql=dados["Experiência de SQL"],
-            experiencia_cloud=dados["Experiência em Cloud"],
+            experiencia_cloud=dados["Experiência de Cloud"],
         )
         session.add(novo_dado)
         session.commit()
